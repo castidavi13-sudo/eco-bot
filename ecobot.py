@@ -38,4 +38,4 @@ async def hint(ctx):
     consiglio = random.choice(consigli)
     await ctx.send(f'🌱 **Consiglio ecologico:** {consiglio}')
 
-bot.run("token")  # Sostituisci "token" con il token reale del tuo bot
+bot.run("token")
